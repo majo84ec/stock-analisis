@@ -1,2 +1,2 @@
 # stock-analisis
-modulo 2
+Modulo 2 vba
