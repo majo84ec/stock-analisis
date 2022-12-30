@@ -22,13 +22,13 @@ Regarding the execution time, the refactoring code runs the macro in less time t
 
 ![COMPARACION](https://user-images.githubusercontent.com/120151872/210092242-7447ea81-0c09-46d1-b7ac-3ee23d4e90d7.png)
 
-
 ## Summary.
 
 ### Advantages and disadvantages of refactoring code.
 
 Refactoring makes a clean code,  easy to understand, extend and maintain in the future by eliminate unnecessary complexity or features, in this process is possible to find some bugs that help improve the code quality. However , there are risks to edit a code when the application is big and the developers do not understand what's all about and it this process become expensive and time consuming so it is necessary to evaluate if it process will be worthy.
 
-### Advantages and disadvantages of VBA script .
-The benefit of refactoring VBA script was reduce the run time of the macro by elimate 'tickers(i)', it was used in a for loop to read the data of each index position ticker. Overall, edit the code will be helpful to other users understand what is behind of AllStockAnalysis macro because it is more concise and organized . However , no matter size project  if refactoring is not doing properly could introduce new bugs and errors.
+### Advantages and disadvantages of the original and refactored VBA script.
+The disadvantage of original code is used a  'ticker(i)' variable in a for loop to read the data of each index position and it increased the execution time of macro  The refactoring VBA script eliminate excessive iterations and it will be helpful to other users understand what is behind of AllStockAnalysis macro because it is more concise and organized . 
+Since the first vesion had a to improve our script gave rise to a higher efficiency script through refactoringHowever , no matter size project  if refactoring is not doing properly could introduce new bugs and errors.
 
