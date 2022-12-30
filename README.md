@@ -22,7 +22,7 @@ As a result in 2017 stock market had a better performance. 92% of stocks give a 
 
 Regarding the execution time, after refactoring , the macro runs  in less time than the original version see the image below.
 
-![Original vs Refactoring](https://user-images.githubusercontent.com/120151872/210112430-e339d76e-fb56-41e8-87ff-1261379dbd59.png)
+![Original vs Refactoring](https://user-images.githubusercontent.com/120151872/210113685-196f9994-d5a2-46e3-8dc3-f807cd1c8f76.png)
 
 ## Summary.
 
