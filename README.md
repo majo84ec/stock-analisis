@@ -12,11 +12,12 @@ After imported VBA_Challenge.vbs to script to the Microsoft Visual Basic editor,
 
 ![image](https://user-images.githubusercontent.com/120151872/210043332-73b6c4c1-c17f-4fca-9e7a-c81733155267.png)
 
-As a result in 2017 stock market had a better performance. 92% of stocks give a positive return compare with 17% of 2018.  Total daily volume in 2018 exceed  4% the previous year however  only 2 stocks give return that represent 33% of stocks traded. 
+As a result in 2017 stock market had a better performance. 92% of stocks give a positive return compare with 17% of 2018.  Total daily volume in 2018 exceed  4% the previous year. However, only 2 stocks give return that represent 33% of stocks traded. 
 
 ![2017](https://user-images.githubusercontent.com/120151872/210043674-becd8d07-d5d8-4e0b-9649-fe3345002c3b.PNG)     
 
 ![tabla 2008](https://user-images.githubusercontent.com/120151872/210043716-a1028d74-3744-483f-a4ae-dcd4766172f6.PNG)
 
+Regarding the execution time, the refactored script runs in less time than the original.
 
-Regarding the execution time, the refactored script runs in less time than the original .
+![COMPARACION](https://user-images.githubusercontent.com/120151872/210044997-d4d8d864-3328-483d-9b21-aa1bd4565dda.png)
