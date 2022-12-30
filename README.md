@@ -8,7 +8,7 @@ The module 2 code calculates the total daily volume and yearly return for stock.
 The results are showed in a table, it is formatting to determine stock performance immediately. We are looking to loop through all the data one time to collect the same information but efficiently.
 
 ## Results.
-After imported VBA_Challenge.vbs to script to the Microsoft Visual Basic editor, I reused the code of set variables the input box, chart headers, ticker array, and to activation of the worksheet. Then , I follow the steps to create a tickerIndex , set arrays, create a loop to thought all data and the conditionals for the starting and ending prices.
+After imported VBA_Challenge.vbs to script to the Microsoft Visual Basic editor, I reused the code of set variables the input box, chart headers, ticker array, and to activation of the worksheet. Then , I follow the steps to create a tickerIndex to access all stock ticker names , set output arrays, create a loop to  go through all data and the conditionals for the starting and ending prices.
 
 ![image](https://user-images.githubusercontent.com/120151872/210043332-73b6c4c1-c17f-4fca-9e7a-c81733155267.png)
 
@@ -18,15 +18,17 @@ As a result in 2017 stock market had a better performance. 92% of stocks give a 
 
 ![tabla 2008](https://user-images.githubusercontent.com/120151872/210043716-a1028d74-3744-483f-a4ae-dcd4766172f6.PNG)
 
-Regarding the execution time, the refactoring code runs in less time than the original.
+Regarding the execution time, the refactoring code runs the macro in less time than the original see the image below.
 
-![COMPARACION](https://user-images.githubusercontent.com/120151872/210044997-d4d8d864-3328-483d-9b21-aa1bd4565dda.png)
+![COMPARACION](https://user-images.githubusercontent.com/120151872/210092242-7447ea81-0c09-46d1-b7ac-3ee23d4e90d7.png)
+
 
 ## Summary.
 
 ### Advantages and disadvantages of refactoring code.
 
-Refactoring makes a clean code,  easy to understand, extend and maintain in the future by eliminate unnecessary complexity or features, in this process is possible to finding some bugs that help improve the code quality. However , there is a risk to  edit a code when the application is big and the developers do not understand what's all about and it this process become expensive and time  consuming.
+Refactoring makes a clean code,  easy to understand, extend and maintain in the future by eliminate unnecessary complexity or features, in this process is possible to find some bugs that help improve the code quality. However , there are risks to edit a code when the application is big and the developers do not understand what's all about and it this process become expensive and time consuming so it is necessary to evaluate if it process will be worthy.
 
-
+### Advantages and disadvantages of VBA script .
+The benefit of refactoring VBA script was reduce the run time of the macro by elimate 'tickers(i)', it was used in a for loop to read the data of each index position ticker. Overall, edit the code will be helpful to other users understand what is behind of AllStockAnalysis macro because it is more concise and organized . However , no matter size project  if refactoring is not doing properly could introduce new bugs and errors.
 
