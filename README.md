@@ -18,7 +18,6 @@ As a result in 2017 stock market had a better performance. 92% of stocks give a 
 
 ![tabla 2008](https://user-images.githubusercontent.com/120151872/210043716-a1028d74-3744-483f-a4ae-dcd4766172f6.PNG)
 
-
 Regarding the execution time, the refactoring code runs the macro in less time than the original see the image below.
 
 ![COMPARACION](https://user-images.githubusercontent.com/120151872/210092242-7447ea81-0c09-46d1-b7ac-3ee23d4e90d7.png)
@@ -27,10 +26,9 @@ Regarding the execution time, the refactoring code runs the macro in less time t
 
 ### Advantages and disadvantages of refactoring code.
 
-Refactoring makes a clean code,  easy to understand, extend and maintain in the future by eliminate unnecessary complexity or features, in this process is possible to find some bugs that help improve the code quality. However , there are risks to edit a code when the application is big and the developers do not understand what's all about and it this process become expensive and time consuming so it is necessary to evaluate if it process will be worthy.
+Overall refactoring makes a clean code,  easy to understand, extend and maintain in the future by eliminate unnecessary complexity or features, in this process is possible to find some bugs that help improve the code quality. However , there are risks associate of it when the application is big and the developers do not understand what's all about and this process become expensive and time consuming so, it is necessary to evaluate if edit the code will be worthy.
 
 ### Advantages and disadvantages of the original and refactored VBA script.
-The disadvantage of original code is used a  'ticker(i)' variable in a for loop to read the data of each index position and it increased the execution time of AllStockAnalysis macro. The refactoring VBA script eliminate this excessive iterations and it will be helpful to other users understand what is behind of macro because it is more concise and organized . 
-The first version  required the ticker array list in the same order as the ticker appears in the dataset in order to aviod error in the analysis. 
- , no matter size project  if refactoring is not doing properly could introduce new bugs and errors.
+The disadvantage of original code is used a  'ticker(i)' variable in a for loop to read the data of each index position and it increased the execution time of AllStockAnalysis macro. The refactoring VBA script eliminate this excessive iterations and it will be helpful to other users understand what is behind of macro because it is more concise and organized . Furthermore, the first version required the ticker array list be in the same order as the ticker appears in the dataset to aviod error in the analysis. 
+No matter the size project , if refactoring is not doing properly could introduce new bugs and errors.
 
